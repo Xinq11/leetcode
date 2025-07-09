@@ -1,5 +1,8 @@
 package com.lc150.数组字符串;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class lc13 {
     Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
         put('I', 1);
