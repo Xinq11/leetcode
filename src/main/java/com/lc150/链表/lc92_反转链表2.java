@@ -28,7 +28,6 @@ public class lc92_反转链表2 {
         }
         for (int i = 0; i < right - left; i++) {
             ListNode node = p.next;
-
             p.next = node.next;
             node.next = g.next;
             g.next = node;
